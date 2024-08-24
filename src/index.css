@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "titulo";
+  src: url("assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "corpo";
+  src: url("assets/fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf") format("truetype");
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  border-style: none;
+}
+
+body{
+  background-color: hsl(0, 0%, 95%);
+}
