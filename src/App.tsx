@@ -1,4 +1,4 @@
-import styled, {css} from "styled-components"
+import styled from "styled-components"
 
 import Area from "./components/Container"
 
@@ -6,17 +6,6 @@ import suv from './assets/imagens/icon-suvs.svg'
 import sedan from './assets/imagens/icon-sedans.svg'
 import luxury from './assets/imagens/icon-luxury.svg'
 
-const responsive = css`
-  @media (max-width: 960px) {
-    &:first-of-type {
-      border-radius: 8px 0px 8px 0px;
-    }
-
-    &:last-of-type {
-      border-radius: 8px 0px 8px 0px; 
-    }
-  }
-`
 const Main = styled.div`
   display: flex;
   flex-wrap: wrap;
